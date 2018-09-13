@@ -1,6 +1,3 @@
-# Projects
-directory to contain projects for 201
-
 # Project Title
 
 This is an about me page.
@@ -26,4 +23,6 @@ Amanda Something
 
 ```
 probably my hubby, Adam Eivy, for when I get stuck
+
 ```
+Caity Heath for pair programming help
