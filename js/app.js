@@ -3,6 +3,7 @@
 var score = 0;
 
 //first question
+function q1(){
 var middle = prompt('Is my middle name Jane?');
 
 if (middle.toLowerCase()==='yes' || middle.toLowerCase()==='y') {
@@ -13,8 +14,10 @@ if (middle.toLowerCase()==='yes' || middle.toLowerCase()==='y') {
 }
 
 console.log('is my middle name Jane? ' + middle);
+}
 
 //second question
+function q2(){
 var cats = prompt('Do I love Cats?');
 
 if (cats.toLowerCase()==='yes' || cats.toLowerCase()==='y') {
@@ -25,8 +28,10 @@ if (cats.toLowerCase()==='yes' || cats.toLowerCase()==='y') {
 }
 
 console.log('Do I love cats? ' + cats);
+}
 
 //third question
+function q3(){
 var travel = prompt('Have I ever been out of the cournty?');
 
 if (travel.toLowerCase()==='yes' || travel.toLowerCase()==='y') {
@@ -37,8 +42,10 @@ if (travel.toLowerCase()==='yes' || travel.toLowerCase()==='y') {
 }
 
 console.log('Have I ever been out of the country? ' + travel);
+}
 
 //fourth questioh
+function q4(){
 var kids = prompt('Do I have kids?');
 
 if(kids.toLowerCase() === 'no' || kids.toLowerCase() === 'n'){
@@ -49,8 +56,10 @@ if(kids.toLowerCase() === 'no' || kids.toLowerCase() === 'n'){
 }
 
 console.log('Do I have kids? ' + kids);
+}
 
 //fifth question
+function q5(){
 var sing = prompt('Do I sing karaoke?');
 
 if(sing.toLowerCase() === 'no' || sing.toLowerCase() === 'n'){
@@ -61,13 +70,15 @@ if(sing.toLowerCase() === 'no' || sing.toLowerCase() === 'n'){
 }
 
 console.log('Do I sing? ' + sing); 
+}
 
 //sixth question
-
+function q6(){
 var guessNumber = 0;
 
 while (guessNumber < 4){
   var favNumber = prompt('Guess what my favorite number is.');
+  
   if (favNumber === '8' || favNumber === 'eight') {
     alert('You got it right! Eight is GREAT - and it is a sideways infinity');
     score++;
@@ -80,24 +91,31 @@ while (guessNumber < 4){
     alert('Too high! Try Again');
     console.log('my favorite number guesses: ' + favNumber);
   }
+  
+  if(guessNumber === 3){
+    alert('You\'re out of guesses, you loose!');
+  }
+
   guessNumber++;
+}
 }
 
 //seventh question
 
+function q7(){
 var countriesArray = ['thailand', 'france', 'greece', 'italy', 'rwanda', 'england', 'germany'];
 
 var guessCountries = 0;
-var answer;
+var answer = false;
 
 while (guessCountries < 6) {
   var countries = prompt('what countries have I visited?');
 
-  for (var i=0; i < 6; i++) {
+  for (var i=0; i < countriesArray.length; i++) {
     if (countries.toLowerCase() === countriesArray[i]) {
       answer = true;
       console.log('what countries I have visited: ' + countries);
-      i=7;
+      break;      //this is the hack spot change to i=7;
     } 
   }
   if (answer) {
@@ -111,12 +129,25 @@ while (guessCountries < 6) {
 }
 
 alert('I have traveled all over the world. I\'ve been to Germany, England, Italy, Greece, France, Thailand, and Rwanda');
+}
 
+function score(){
 if (score < 4) {
   alert('You got ' + score + ' out of 7 correct. You must not know me at all! Let\'s get coffee and chat');
 } else {
   alert('You got ' + score + ' out of 7 correct. You are a really good guesser or you know me. Either way, let\'s get coffee and chat');
 }
+}
+
+q1();
+q2();
+q3();
+q4();
+q5();
+q6();
+q7();
+score();
+
 
 
 
