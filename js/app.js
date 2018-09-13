@@ -78,6 +78,7 @@ var guessNumber = 0;
 
 while (guessNumber < 4){
   var favNumber = prompt('Guess what my favorite number is.');
+  
   if (favNumber === '8' || favNumber === 'eight') {
     alert('You got it right! Eight is GREAT - and it is a sideways infinity');
     score++;
@@ -90,6 +91,11 @@ while (guessNumber < 4){
     alert('Too high! Try Again');
     console.log('my favorite number guesses: ' + favNumber);
   }
+  
+  if(guessNumber === 3){
+    alert('You\'re out of guesses, you loose!');
+  }
+
   guessNumber++;
 }
 }
