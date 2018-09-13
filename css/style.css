@@ -1,33 +1,29 @@
 body {
-    font-family:sans-serif;
-    border: 4px solid #111;
-    width: 90%;
-    margin: auto;
     background-image: url('../img/bg.png');
     background-repeat: repeat;
+    border: 4px solid #111;
+    font-family:sans-serif;
+    margin: auto;
+    width: 90%;
 }
 
 h2{
-    font-size:40px;
-    font-weight: bold;
     color:#111;
     font-family: fantasy;
+    font-size:40px;
+    font-weight: bold;
     padding-bottom:40px;
     padding-top:40px;
 }
 
 nav {
-    line-height: 50px;
     background-color: #de9876;
+    line-height: 50px;
 }
 
 nav li{
     display: inline-block;
     padding-left:20px;
-}
-
-heaader {
-
 }
 
 header section {
@@ -36,18 +32,18 @@ header section {
 }
 
 header img {
-    padding-left: 100px;
     float: left;
-    width: 30%;
+    padding-left: 100px;
     padding-top: 50px;
+    width: 30%;
 }
 
 header section p{
     color: #ccc;
     font-size: 30px;
-    padding-top: 100px;
-    padding-right: 55px;
     line-height: 50px;
+    padding-right: 55px;
+    padding-top: 100px;
     overflow: scroll;
 }
 
@@ -58,21 +54,21 @@ header section p{
 }
 
 #about h2 {
-    text-align:center;
-    margin:auto;
     line-height: 50px;
+    margin:auto;
+    text-align:center;
 }
 
 #about p {
     line-height: 35px;
-    padding-top: 20px;
     padding-left:40px;
+    padding-top: 20px;
 }
 
 #about img {
     float: right;
-    width: 25%;
     padding-right: 45px;
+    width: 25%;
 }
 
 #social_media {
@@ -81,31 +77,31 @@ header section p{
 }
 
 #social_media h2 {
-    text-align:center;
     line-height: 50px;
+    text-align:center;
 }
 
 #social_media li {
     display: inline-block;
-    width: 30%;
     text-align: center;
+    width: 30%;
 }
 
 #social_media img {
-    width:20%;
     padding-left:100px;
+    width:20%;
 }
 
 #education {
-    text-align:center; 
     background-color:#f1f1f1;
     min-height: 440px;
     padding-top:50px;
+    text-align:center; 
 }
 
 #ten {
-    width: 40%;
     float:left;
+    width: 40%;
 }
 
 #ten h2 {
@@ -117,20 +113,20 @@ header section p{
 }
 
 footer {
-    line-height: 100px;
     background-color:#a37f71;
+    line-height: 100px;
 }
 
 footer p {
-    width: 50%;
-    margin:auto;
     color:#ccc;
+    margin:auto;
     text-align:center;
+    width: 50%;
 }
 
 a {
-    text-decoration:none;
     color:#30466f;
+    text-decoration:none;
 }
 
 a:hover {
@@ -138,8 +134,8 @@ a:hover {
 }
 
 strong {
-    font-weight:bold;
     font-size: 110%;
+    font-weight:bold;
 }
 
 ol {
@@ -149,10 +145,6 @@ ol {
 
 ol li {
     padding-bottom: 10px;
-}
-
-ul {
-
 }
 
 .clear {
