@@ -54,6 +54,7 @@ header section p{
 #about {
     background-color:#ccc;
     height: 530px;
+    overflow: scroll;
 }
 
 #about h2 {
@@ -95,6 +96,26 @@ header section p{
     padding-left:100px;
 }
 
+#education {
+    text-align:center; 
+    background-color:#f1f1f1;
+    min-height: 440px;
+    padding-top:50px;
+}
+
+#ten {
+    width: 40%;
+    float:left;
+}
+
+#ten h2 {
+    text-align: center;
+}
+
+.space {
+    margin-bottom:30px;
+}
+
 footer {
     line-height: 100px;
     background-color:#a37f71;
@@ -114,6 +135,24 @@ a {
 
 a:hover {
     color:#111;
+}
+
+strong {
+    font-weight:bold;
+    font-size: 110%;
+}
+
+ol {
+    list-style-type: decimal;
+    padding-left: 50px;
+}
+
+ol li {
+    padding-bottom: 10px;
+}
+
+ul {
+
 }
 
 .clear {
