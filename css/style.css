@@ -31,8 +31,8 @@ heaader {
 }
 
 header section {
-    height: 500px;
     background-color: #30466f;
+    overflow: scroll;
 }
 
 header img {
@@ -45,10 +45,10 @@ header img {
 header section p{
     color: #ccc;
     font-size: 30px;
-    margin-left: 500px;
     padding-top: 100px;
     padding-right: 55px;
     line-height: 50px;
+    overflow: scroll;
 }
 
 #about {
@@ -58,7 +58,7 @@ header section p{
 }
 
 #about h2 {
-    width: 20%;
+    text-align:center;
     margin:auto;
     line-height: 50px;
 }
@@ -66,12 +66,13 @@ header section p{
 #about p {
     line-height: 35px;
     padding-top: 20px;
-    padding-right: 500px;
     padding-left:40px;
 }
 
 #about img {
     float: right;
+    width: 25%;
+    padding-right: 45px;
 }
 
 #social_media {
@@ -80,15 +81,14 @@ header section p{
 }
 
 #social_media h2 {
-    width: 20%;
-    margin:auto;
+    text-align:center;
     line-height: 50px;
 }
 
 #social_media li {
     display: inline-block;
-    padding-left: 40px;
     width: 30%;
+    text-align: center;
 }
 
 #social_media img {
