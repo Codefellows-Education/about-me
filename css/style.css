@@ -28,7 +28,7 @@ nav li{
 
 header section {
     background-color: #30466f;
-    overflow: scroll;
+    overflow: hidden;
 }
 
 header img {
@@ -41,16 +41,17 @@ header img {
 header section p{
     color: #ccc;
     font-size: 30px;
+    height:400px;
     line-height: 50px;
     padding-right: 55px;
     padding-top: 100px;
-    overflow: scroll;
+    overflow: hidden;
 }
 
 #about {
     background-color:#ccc;
     height: 530px;
-    overflow: scroll;
+    overflow: hidden;
 }
 
 #about h2 {
@@ -72,8 +73,11 @@ header section p{
 }
 
 #social_media {
-    background-color: #7685ac;
+    background-color: #30466f;
+    border-bottom:2px solid #111;
+    border-top:2px solid #111;
     padding-bottom:20px;
+    color:#ccc;
 }
 
 #social_media h2 {
@@ -88,25 +92,28 @@ header section p{
 }
 
 #social_media img {
-    padding-left:100px;
     width:20%;
 }
 
 #education {
-    background-color:#f1f1f1;
-    min-height: 440px;
+    background-color:#7685ac;
+    min-height: 385px;
     padding-top:50px;
-    text-align:center; 
+    text-align:center;
+    overflow: hidden; 
 }
 
 #ten {
     float:left;
-    width: 40%;
+    width: 50%;
+    overflow: hidden;
+    background-color:#afd0d5;
 }
 
 #ten h2 {
     text-align: center;
 }
+
 
 .space {
     margin-bottom:30px;
@@ -140,7 +147,7 @@ strong {
 
 ol {
     list-style-type: decimal;
-    padding-left: 50px;
+    padding-left: 80px;
 }
 
 ol li {
