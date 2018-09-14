@@ -17,7 +17,7 @@ h2{
 }
 
 nav {
-    background-color: #de9876;
+    background-image: linear-gradient(to left, #de9876, #a37f71);
     line-height: 50px;
 }
 
@@ -27,12 +27,13 @@ nav li{
 }
 
 header section {
-    background-color: #30466f;
     overflow: hidden;
+    background-image: linear-gradient(to bottom right, #30466f, #7685ac);
 }
 
 header img {
     float: left;
+    padding-bottom:20px;
     padding-left: 100px;
     padding-top: 50px;
     width: 30%;
