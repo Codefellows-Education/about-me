@@ -1,7 +1,12 @@
+@font-face {
+    font-family: calista;
+    src: url(../fonts/calista.ttf);
+}
+
 body {
     background-image: url('../img/bg.png');
     background-repeat: repeat;
-    border: 2px solid #111;
+    border: 2px solid #888;
     font-family:sans-serif;
     margin: auto;
     width: 90%;
@@ -9,8 +14,8 @@ body {
 
 h2{
     color:#111;
-    font-family: fantasy;
-    font-size:40px;
+    font-family: calista;
+    font-size:300%;
     font-weight: bold;
     padding-bottom:40px;
     padding-top:40px;
@@ -19,6 +24,9 @@ h2{
 nav {
     background-image: linear-gradient(#c78e78, #de9876, #c78e78);
     line-height: 50px;
+    font-family:calista;
+    font-size: 150%;
+    font-weight: bold;
 }
 
 nav li{
@@ -27,17 +35,15 @@ nav li{
 }
 
 header section {
+    background-image: linear-gradient(to top left, #30466f, #7685ac);
+    border-bottom:5px groove #999;
     overflow: hidden;
-    background-image: linear-gradient(to bottom right, #30466f, #7685ac);
-    border-bottom:5px groove #111;
 }
 
 header img {
     float: left;
-    padding-bottom:20px;
-    padding-left: 100px;
-    padding-top: 50px;
-    width: 30%;
+    padding: 50px 20px 20px 100px;
+    width: 35%;
 }
 
 header section p{
@@ -54,7 +60,7 @@ header section p{
     background-color:#ccc;
     height: 530px;
     overflow: hidden;
-    border-bottom: 2px black double;
+    border-bottom: 2px #999 double;
 }
 
 #about h2 {
@@ -99,23 +105,33 @@ header section p{
     width:20%;
 }
 
+#tened {
+    display: table;
+    width:100%;
+}
+
 #education {
-    background-color:#7685ac;
+    background-image:linear-gradient(#7685ac, #afd0d5);
     min-height: 385px;
-    padding-top:50px;
     text-align:center;
     overflow: hidden; 
+    display: table-cell;
+    vertical-align: middle;
 }
 
 #ten {
-    float:left;
+    background-image:linear-gradient(#afd0d5, #7685ac);
+    padding-top:20px;
     width: 50%;
     overflow: hidden;
-    background-color:#afd0d5;
+    display:table-cell;
+    padding-bottom: 20px;
+    vertical-align: middle;
 }
 
 #ten h2 {
     text-align: center;
+    padding-top:20px;
 }
 
 
@@ -125,7 +141,7 @@ header section p{
 
 footer {
     background-color:#a37f71;
-    line-height: 100px;
+    line-height: 50px;
 }
 
 footer p {
@@ -156,6 +172,14 @@ ol {
 
 ol li {
     padding-bottom: 10px;
+}
+
+.container {
+    background-color: #fff;
+    opacity: .8;
+    width: 90%;
+    margin: auto;
+    min-height: 377px;
 }
 
 .clear {
